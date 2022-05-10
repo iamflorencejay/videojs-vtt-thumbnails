@@ -265,11 +265,11 @@ class vttThumbnailsPlugin {
   }
 
   showThumbnailHolder() {
-    this.thumbnailHolder.style.opacity = '1';
+    this.thumbnailHolder.style.visibility = 'visible';
   }
 
   hideThumbnailHolder() {
-    this.thumbnailHolder.style.opacity = '0';
+    this.thumbnailHolder.style.visibility = 'hidden';
   }
 
   updateThumbnailStyle(percent, width) {
