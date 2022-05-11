@@ -4,6 +4,8 @@ Video.js plugin that displays thumbnails on progress bar hover, driven by extern
 
 Note: Plugin hides the default skin's mouse display timestamp on hover.
 
+You can see an example of the plugin in action here: https://codesandbox.io/s/videojs-vtt-thumbnails-forked-vhphsi?file=/package.json
+
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
