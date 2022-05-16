@@ -25,9 +25,10 @@ You can see an example of the plugin in action here: https://codesandbox.io/s/vi
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## Installation
 
-```sh
-npm install --save videojs-vtt-thumbnails
-```
+Add this to your package.json under dependencies: 
+`"videojs-vtt-thumbnails": "https://github.com/mayeaux/videojs-vtt-thumbnails"`
+
+Then run `$ npm i` and it will install. 
 
 ## Usage
 
