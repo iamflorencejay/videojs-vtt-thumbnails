@@ -314,7 +314,7 @@ var vttThumbnailsPlugin = /*#__PURE__*/function () {
 
     var processedVtts = []; // fix newline bug
 
-    data = data.replaceAll('\r\n', '\n');
+    data = data.replace(/\r\n/g, '\n');
     var vttDefinitions = data.split(/[\r\n][\r\n]/i);
     vttDefinitions.forEach(function (vttDef) {
       if (vttDef.match(/([0-9]{2}:)?([0-9]{2}:)?[0-9]{2}(.[0-9]{3})?( ?--> ?)([0-9]{2}:)?([0-9]{2}:)?[0-9]{2}(.[0-9]{3})?[\r\n]{1}.*/gi)) {

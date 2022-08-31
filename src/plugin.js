@@ -314,7 +314,7 @@ class vttThumbnailsPlugin {
     const processedVtts = [];
 
     // fix newline bug
-    data = data.replaceAll('\r\n', '\n');
+    data = data.replace(/\r\n/g, '\n');
 
     const vttDefinitions = data.split(/[\r\n][\r\n]/i);
 
